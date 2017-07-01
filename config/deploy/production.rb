@@ -7,7 +7,7 @@ set :deploy_to, "/var/www/pepsi"
 set :user, "deploy"
 set :use_sudo, true
  set :ssh_options, {
-   user: 'deploy'
+   user: 'deploy',
    forward_agent: false,
    port: 25000
  }
