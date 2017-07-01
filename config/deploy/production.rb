@@ -1,5 +1,5 @@
 set :stage, :production
-server '39.108.59.8:25000', user: 'deploy', roles: %w{web app db}, primary: true
+server '39.108.59.8', user: 'deploy', roles: %w{web app db}, port: 25000
 set :application, "pepsi"
 set :repo_url, "git@github.com:fzzf0618/pepsi.git"
 set :branch, 'master'
