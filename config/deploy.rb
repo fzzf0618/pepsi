@@ -3,6 +3,7 @@ lock "3.8.2"
 
 set :application, "pepsi"
 set :repo_url, "git@github.com:fzzf0618/pepsi.git"
+set :branch, 'master'
 set :deploy_to, "/var/www/pepsi"
 append :linked_files, "config/database.yml", "config/secrets.yml"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system", "node_modules"
